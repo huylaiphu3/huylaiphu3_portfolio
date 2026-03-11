@@ -1,0 +1,22 @@
+.skills{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*justify-content: space-around;*/
+    padding:0px 10%;
+}
+.skills img{
+    width:80px;
+}
+.skills div{
+    text-align: center;
+    border: #E4EBF5 solid 1px;
+    padding: 10px;
+}
+.title{
+    grid-column: span 2;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: hidden;
+}

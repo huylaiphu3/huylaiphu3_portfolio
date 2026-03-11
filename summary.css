@@ -1,0 +1,27 @@
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px 20%;
+    background: #E4EBF5;
+}
+
+.text{
+    width:50%;
+}
+
+.avatar{
+    width:40%;
+}
+
+.avatar img{
+    width:100%;
+    border-radius: 50%;
+}
+.text p{
+    font-size:20px;
+}
+.text h1{
+    width: 80%;
+    /*font-size: 35px;*/
+}
